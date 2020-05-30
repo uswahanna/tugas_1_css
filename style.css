@@ -1,0 +1,89 @@
+html, body {
+  margin:0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+/* header logo dan brand */
+.header{
+  padding:10px 40px;
+  border-bottom: 1px solid black;
+}
+
+.div-logo{
+  display: inline-block;
+  padding: 10px;
+}
+
+.img-icon{
+  vertical-align:middle;
+}
+
+.inline-icon a{
+  vertical-align:middle;
+  font-size:24px;
+  letter-spacing:5px;
+  font-weight:bold;
+  padding-left:10px;
+  color: #000000;
+  text-decoration: none!important;
+}
+/* end header logo dan brand */
+
+/* main coverup */
+.main{
+  padding: 0 30px 50px;
+}
+
+.container-main{
+  margin: 20px;
+}
+/* end main cover */
+
+/* btn2 tugas */
+.btn-var{
+  margin: 0 auto;
+  width: auto;
+  text-align: center;
+}
+
+.btn-var a{
+  min-width: 180px;
+  background-color: #312B2E;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-family: tahoma,sans-serif;
+  border: 15px solid white;
+  text-decoration: none!important;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 10px;
+}
+
+.btn-var a:link, .btn-var a:visited{
+  background-color: #312B2E;
+}
+
+.btn-var a:hover, .btn-var a:active{
+  background-color: #F31F79;
+}
+/* end btn2 tugas */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  padding: 10px;
+  background-color: #312B2E !important;
+}
+
+.footer > p {
+  margin: 5px 0;
+  color: white !important;
+  text-align: center !important;
+}
